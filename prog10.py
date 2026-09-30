@@ -1,0 +1,10 @@
+item = input("Enter Item Name: ")
+qty = int(input("Enter Quantity:"))
+price = float(input("Enter price per unit: "))
+total = qty * price
+print("\n########################Bill#######################")
+print("Item name\tItem Quantity\tItem Price")
+print("*****************************************************")
+print(item, "\t\t", qty, "\t\t", price)
+print("Total Amount to be paid: ", total)
+print("******************************************************")
